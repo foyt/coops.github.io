@@ -536,15 +536,30 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
-  width: 138px;
-  padding-left: 64px;
-  display: block;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+
+aside a.button.specifications,
+aside a.button.demo {
   margin-bottom: 20px;
   font-size: 21px;
+  display: block;
+  width: 138px;
+  padding-left: 80px;
+  padding-right: 10px;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-color: #2b79d5;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #888888;
 }
 
+aside a.button.specifications {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/64/setting.png);
+}
+
+aside a.button.demo {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/64/preview.png);
+}
+  
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
